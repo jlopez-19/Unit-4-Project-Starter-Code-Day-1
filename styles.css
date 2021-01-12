@@ -1,0 +1,98 @@
+body {
+    background-image: url("https://cutewallpaper.org/21/black-gif-background/Black-background-gif-13-GIF-Images-Download.gif");
+    background-size: 850px;
+}
+
+h1 {
+    text-align: center;
+    background-size: 100%;
+    color: #66ff66;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.posts {
+    border: ridge black 5px;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.nav-bar {
+    color: #ff3300;
+    font-family: 'Hanalei Fill', cursive;
+}
+
+h2 {
+    font-family: 'Cinzel', serif;
+}
+
+* {
+    color: white;
+}
+
+.zoom {
+    padding: 50px;
+    background-color: black;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.8);
+}
+
+a {
+    color: #80ff00;
+}
+
+a:hover {
+    color: red;
+}
+
+p:hover {
+    color: #ff8000;
+    font-size: 200%;
+    font-family: 'Tangerine', cursive;
+}
+
+.friends {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.f-posts {
+    width: 23%;
+    height: 20%;
+    border: double #4d0000 5px;
+    padding: 2.5px;
+    margin: 5px;
+}
+
+
+ul {
+    font-family: 'Caveat', cursive;
+    list-style: none;
+}
+
+ul li::before {
+    content: "\2023";
+    color: #ff3300;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
